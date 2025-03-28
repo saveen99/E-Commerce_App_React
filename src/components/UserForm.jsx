@@ -13,6 +13,12 @@ const UserForm = (props) => {
         <Grid item xs={12}>
             <Typography component={'h1'} sx={{ color: '#000000'}}>Users Form</Typography>
         </Grid>
+
+        <Grid>
+            <Typography>
+                
+            </Typography>
+        </Grid>
     </Grid>
 }
 
