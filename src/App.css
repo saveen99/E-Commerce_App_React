@@ -56,3 +56,8 @@ li{
 .RText{
     text-align: right;
 }
+
+.logo-size{
+    width: 200px;
+    height: auto;
+}
