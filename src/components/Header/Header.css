@@ -54,4 +54,32 @@
     font-size: 15px;
 }
 
+.search-box span{
+    width: 20%;
+    opacity: 0.5;
+    border-left: 2px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.cart{
+    position: relative;
+}
+
+.search .cart span{
+    position: absolute;
+    top: -10px;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #e94560;
+    font-size: 12px;
+    color: #fff;
+}
+
+.search .f_flex{
+    justify-content: end;
+}
+
 /*         End Search              */
