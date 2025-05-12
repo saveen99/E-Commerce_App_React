@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../../assets/logo.png'
+import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 
 export const Search = () => {
   return (
@@ -15,6 +16,12 @@ export const Search = () => {
         </div>
         <div className="icon f_flex width">
           <i className='fa fa-user icon_circle'></i>
+          <div className="cart">
+            <Link to="/cart">
+              <i className='fa fa-shopping-bag icon-circle'></i>
+            </Link>
+            <span>0</span>
+          </div>
         </div>
       </div>
     </section>

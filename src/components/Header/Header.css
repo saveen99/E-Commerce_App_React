@@ -16,3 +16,42 @@
 }
 
 /*           End Head              */
+/*           Search              */
+
+.search{
+    padding: 20px 0;
+}
+
+.search logo img{
+    width: auto;
+    height: auto;
+}
+
+.search .width{
+    width: 20%;
+}
+
+.search-box{
+    width: 80%;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.search-box i{
+    width: 5%;
+    text-align: center;
+    field-sizing: 20px;
+    opacity: 0.5;
+    padding: 15px 20px;
+    font-size: 17px;
+}
+
+.search-box input{
+    width: 100%;
+    padding: 10px;
+}
+
+::placeholder{
+    font-size: 15px;
+}
+
+/*         End Search              */
