@@ -3,6 +3,10 @@ import logo from '../../assets/logo.png'
 import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 
 export const Search = () => {
+  window.addEventListener("scroll",function(){
+    const search = document.querySelector(".search")
+    search.classList.toggle("active", window.scrollY > 100)
+  })
   return (
     <section className='search'>
       <div className="container c_flex">
