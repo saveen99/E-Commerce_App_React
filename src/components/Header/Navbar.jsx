@@ -6,8 +6,7 @@ export const Navbar = () => {
   const [MobileMenu , setMobileMenu] = useState(false)
   const [MobileMenu , 
     setMobileMenu] = useState(false)
-
-
+  const [MobileMenu , setMobileMenu] = useState(false)
   
   return (
     <header className='header'>
