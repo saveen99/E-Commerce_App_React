@@ -154,5 +154,33 @@ header ul li a:hover {
         position: absolute;
         display: block;
         list-style-type: none;
+        left: 0;
+        top: 0;
+        transition: 0.5s;
+        width: 60%;
+        height: 100vh;
+        background-color: #fff;
+        z-index: 888;
+    }
+
+    header ul li{
+        width: 100%;
+        transition: all 0.5s ease-in-out;
+        text-transform: uppercase;
+        line-height: 70px;
+    }
+
+    header .link{
+        display: none;
+    }
+
+    .close,.open{
+        position: absolute;
+        top: 35px;
+        right: 20px;
+        color: #ff014f;
+        display: block;
+        font-size: 25px;
+        z-index: 999;
     }
 }
