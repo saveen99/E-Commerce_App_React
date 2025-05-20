@@ -186,6 +186,11 @@ header ul li a:hover {
         z-index: 999;
     }
 
+    .open{
+        top: 37%;
+        right: 25px;
+    }
+
     .close .home-btn{
         background: linear-gradient(145deg, #e2e8ec, #ffffff);
         color: #ff014f;
